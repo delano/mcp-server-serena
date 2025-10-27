@@ -75,7 +75,7 @@ jobs:
           test -f serena-context-server/README.md
 
       - name: Upload extension artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: serena-context-server-extension-${{ github.sha }}
           path: serena-context-server/
